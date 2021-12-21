@@ -3,6 +3,7 @@ type ListProps<T> = {
   onClick: (value: T) => void
 }
 
+
 export const List = <T extends { id: number }>({
   items,
   onClick
